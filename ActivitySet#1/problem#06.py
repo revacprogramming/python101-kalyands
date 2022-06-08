@@ -5,9 +5,9 @@ while True:
     if n == "done":
         break
     print(n)
-    try:
+    if:
         n = float(n)
-    except:
+    elif:
             print('invalid input')
             continue
 largest = max(n)
