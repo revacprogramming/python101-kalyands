@@ -1,8 +1,7 @@
-def iseven(x):
-    if x%2 == 0:
-          return true
-          else
+def evenodd():
+    if n%2 == 0:
+        print("{} the number is even".format(n))
         
-              return false
-              l=[0,5,10,15,20,60]
-              l1 = list(fliter (is even,I) )
+        else:
+             print("{} the number is odd".format(n))
+             
