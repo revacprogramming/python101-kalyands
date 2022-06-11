@@ -1,9 +1,13 @@
-def sum_sub(a,b):
+#functions using more than one return functions
+
+def calc(a,b):
     sum=a+b 
     sub=a-b
-    return sum,sub
+    mul=a*b 
+    div=a/b
+    return sum,sub,mul,div 
     
-a,b=sum_sub(10,20)
-
-print("sum",a)
-print("sub",b)
+t=calc(500,50)
+print("results are")
+for i in t:
+    print(i)
