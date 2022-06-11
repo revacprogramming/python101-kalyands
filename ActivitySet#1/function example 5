@@ -1,0 +1,9 @@
+def sum_sub(a,b):
+    sum=a+b 
+    sub=a-b
+    return sum,sub
+    
+a,b=sum_sub(10,20)
+
+print("sum",a)
+print("sub",b)
