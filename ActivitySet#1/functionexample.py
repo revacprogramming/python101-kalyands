@@ -1,7 +1,10 @@
-def evenodd():
-    if n%2 == 0:
-        print("{} the number is even".format(n))
+#parameters
+
+
+def sum(*n,name):
+    result = 0
+    for x in n:
+        result = result+x 
+        print("the sum by",name,":",result)
         
-        else:
-             print("{} the number is odd".format(n))
-             
+sum(name="kalyan")
