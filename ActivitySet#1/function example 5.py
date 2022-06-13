@@ -1,13 +1,8 @@
-#functions using more than one return functions
-
-def calc(a,b):
-    sum=a+b 
-    sub=a-b
-    mul=a*b 
-    div=a/b
-    return sum,sub,mul,div 
-    
-t=calc(500,50)
-print("results are")
-for i in t:
-    print(i)
+# Swap function
+def swapList(newList):
+     
+    newList[0], newList[-1] = newList[-1], newList[0]
+ 
+    return newList
+newList = [10,20,30,40,50]
+print(newList(swapList))
