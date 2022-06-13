@@ -1,6 +1,7 @@
-a= int(input("Enter item"))
-def rate(x):
-    if x==1 : 
-       print ("750")
-    else :
-          print(750+(x-1)*200)
+lst = []
+num = int(input('How many numbers: '))
+for n in range(num):
+    numbers = int(input('Enter number '))
+    lst.append(numbers)
+    
+print("Maximum element in the list is :", max(lst))
