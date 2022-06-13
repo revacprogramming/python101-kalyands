@@ -1,10 +1,16 @@
-def fact(n):
-    result=1 
-    while n>1:
-        result=result*n 
-        n=n-1
-        return result
-for i range of(1,5):
-  print("the factorial of",i,"is",fact(i))
+def test_prime(n):
+  if (n==1):
+    return false
+  elif (n==2):
+    return true;
+  else:
+    for  x in range(2,n):
+      if(n%2==0):
+        return false
+    return true
 
-        
+print(test_primr(8))    
+    
+  
+      
+ 
