@@ -9,7 +9,7 @@ def test_prime(n):
         return false
     return true
 
-print(test_primr(8))    
+print(test_prime(8))    
     
   
       
