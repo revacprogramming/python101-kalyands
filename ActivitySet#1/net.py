@@ -4,7 +4,7 @@ import subprocess
 
 #creating a socket
 def create_socket():
-         ## 
+         
     try:
      global host
      global port
@@ -15,7 +15,7 @@ def create_socket():
     except socket.error as msg:
         print("socket creation error" + str(msg))
         
-                      
+                     ## 
 #binding and listening for connections
 def bind_socket():
     #try:
@@ -54,10 +54,10 @@ def send_commands(conn):
             conn.send(str.encode(cmd)) 
             client_response = str(conn.recv(1024),"utf-8")
             print(client_response, end="")
-
+#git status
 def main():
     create_socket()
     bind_socket()
     socket_accept()
 main()
-#git commands
+ 
