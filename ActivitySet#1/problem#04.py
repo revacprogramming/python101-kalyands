@@ -9,3 +9,5 @@ else:
     epay=(hrs-40)*rate*1.5+40*rate
     print(epay)
     
+       
+       
