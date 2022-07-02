@@ -14,7 +14,7 @@ else:
     
     line in lines:
     for c in line:
-        if c.isdigit() == True:
+        if c.isdigit() == True:     
             sum = sum + int(c)
             print (sum)
    
