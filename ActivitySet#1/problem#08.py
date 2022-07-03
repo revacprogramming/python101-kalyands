@@ -12,7 +12,7 @@ else:
     value = float(x)
     print(value)
     
-    line in lines:
+    line in lines:      
     for c in line:
         if c.isdigit() == True:     
             sum = sum + int(c)
